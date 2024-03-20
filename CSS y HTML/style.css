@@ -1,0 +1,75 @@
+/* --------------------------------Header------------------------ */
+
+/* Estilos para la lista horizontal */
+.header .confHeader {
+  display: flex;
+  align-items: center;
+}
+
+.header .confHeader .logo {
+  margin-right: 5rem; /* Espacio entre la imagen y la lista */
+}
+
+.header .confHeader .login {
+  margin-left: 5rem; /* Espacio entre la imagen y la lista */
+}
+
+.confHeader{
+  background-color: aqua;
+}
+
+.header .confHeader ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header .confHeader ul li {
+  margin-right: 5rem; /* Espacio entre los elementos de la lista */
+}
+
+.logo,
+.login {
+  width: 7rem;
+}
+
+/* ---------------------- MAIN--------------------------------- */
+
+.imagenPrincipal{
+  margin-top: 1rem;
+}
+
+.primeraSeccion{
+  margin-top: 1rem;
+  margin-bottom: 12rem;
+}
+
+.confCards{
+  display: flex;
+}
+
+.card1, .card2{
+  background-color: lightcoral;
+  width: 14rem; /* 18 veces el tamaño de fuente base */
+  border: 0.0625rem solid #ccc; /* 0.0625 veces el tamaño de fuente base */
+  border-radius: 0.3125rem; /* 0.3125 veces el tamaño de fuente base */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  margin-right: 1rem;
+}
+
+.card2 {
+  margin-right: 0; /* Eliminar el margen derecho de la última tarjeta */
+}
+
+.titulo{
+  background-color: #f0f0f0;
+  padding: 0.625rem; /* 0.625 veces el tamaño de fuente base */
+  border-bottom: 0.0625rem solid #ccc; /* 0.0625 veces el tamaño de fuente base */
+  border-top-left-radius: 0.3125rem; /* 0.3125 veces el tamaño de fuente base */
+  border-top-right-radius: 0.3125rem;
+}
+
+.contenido {
+  padding: 1.25rem; /* 1.25 veces el tamaño de fuente base */
+}

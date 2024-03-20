@@ -1,0 +1,6 @@
+Se puede usar js para cuando se clique en una opcion del select se te cambie el idioma en este caso.
+
+Tecnologia utilizada microsoft designer
+
+
+EXPT2024/115037 pedido de las zapatillas el numero del pedido
